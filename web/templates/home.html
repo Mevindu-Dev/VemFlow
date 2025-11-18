@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{%block content%}
+
+    <div class="card" ><h1>Catalogue coming soon {{item.name}}</h1></div>
+    <div class="card">
+        <!-- {% for quickmenu in quickmenus %}
+        <div class="card-title">{{quickmenu.title}}</div>
+        <div class="card-body">
+            <img src="{{quickmenu.refimage.url}}" alt="{{quickmenu.title}}">
+            <p>{{quickmenu.overview}}</p>
+        </div>
+        <a href="">Blank URL For NOW</a>
+        {% endfor %}
+         -->
+    </div>
+    {% include 'carousel.html' %}
+    <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+
+{% endblock %}

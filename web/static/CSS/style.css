@@ -1,0 +1,11 @@
+body{background-color: rgba(32, 113, 226, 0.544);}
+img{width: 275px; height: 150px;}
+.card{
+    display: flex;
+    height: max-content;
+    width: max-content;
+}
+div.card:hover{
+    scale: 1.1;
+    transition-duration: 200ms;
+}
